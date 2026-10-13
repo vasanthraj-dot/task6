@@ -11,22 +11,22 @@ function result() {
     else {
         let total = m1 + m2 + m3
         let average = total / 3
-        let grade;
+        let rank;
 
         if (average >= 90) {
-            grade = "A"
+            rank = "A"
         }
         else if (average >= 75) {
-            grade = "B"
+            rank = "B"
         }
         else if (average >= 50) {
-            grade = "C"
+            rank = "C"
         }
         else {
-            grade = "F"
+            rank = "F"
         }
 
-        alert("Name: " + name + "\n Total :"+total+"\nAverage :" +average+"\nGrade :"+grade)
+        alert("Name: " + name + "\n Total :"+total+"\nAverage :" +average+"\nGrade :"+rank)
     }
 }
 result()
